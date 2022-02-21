@@ -1,0 +1,8 @@
+apiVersion: v1
+data:
+  .dockerconfigjson: eyJhdXRocyI6eyJyZWdpc3RyeS1pbnRsLmFwLXNvdXRoZWFzdC01LmFsaXl1bmNzLmNvbSI6eyJ1c2VybmFtZSI6ImRlamluLnpoYW5nQDU5NjAwMjQ3MTM2NDc1MjkiLCJwYXNzd29yZCI6IkthaTEyMzRxd2VyLiIsImVtYWlsIjoiZGVqaW4uemhhbmdAYXZhdGVjLmFpIiwiYXV0aCI6IlpHVnFhVzR1ZW1oaGJtZEFOVGsyTURBeU5EY3hNelkwTnpVeU9UcExZV2t4TWpNMGNYZGxjaTQ9In19fQ==
+kind: Secret
+metadata:
+  annotations:
+  name: avatec-harbor
+type: kubernetes.io/dockerconfigjson
